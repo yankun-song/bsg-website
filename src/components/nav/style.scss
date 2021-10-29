@@ -1,0 +1,46 @@
+@use "../../theme/base";
+
+.navbar {
+  color: white;
+  background: "#000";
+  font-size: 10px !important;
+  width: 100% !important;
+  height: 60px;
+
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.navbar::-webkit-scrollbar {
+  display: none !important;
+}
+
+.toolbar {
+  height: 60px;
+  color: #333333;
+  background-color: white;
+  font-size: 11pt !important;
+}
+.navButton {
+  border: 0px solid blue !important;
+  color: #444 !important;
+  border-radius: 3 !important;
+  height: 60% !important;
+  box-shadow: none !important;
+  font-size: 11pt !important;
+  white-space: nowrap;
+}
+.navButton:hover {
+  background-color: #fafafa !important;
+}
+.grow {
+  flex-grow: 1;
+}
+
+.mobile-menu {
+  flex-grow: 0;
+}
+
+.section {
+  display: flex;
+}

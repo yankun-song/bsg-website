@@ -1,0 +1,59 @@
+@use "../../theme/base";
+
+.modal {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  outline: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.modal:focus {
+  outline: 0 !important;
+}
+
+.modal-div {
+  width: 100%;
+  border: 1px solid silver;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: base.$primary-light;
+  box-shadow: 1px;
+  margin-top: 10px;
+  padding: 0px;
+  height: auto;
+  outline: 0 !important;
+}
+.modal-top {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.modal-title {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  padding: 0;
+  margin: -10px 4px 10px 4px;
+}
+.modal-content {
+  background-color: white;
+  overflow-y: auto;
+  padding: 30px 10px 30px 10px;
+  height: 60vh;
+  overflow-x: hidden;
+}
+.modal-bottom {
+  min-height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}

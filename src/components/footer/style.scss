@@ -1,0 +1,12 @@
+@use "../../theme/base";
+
+.footer {
+  padding: 60px 20px 60px 20px;
+  background-color: base.$secondary-dark;
+  color: base.$primary-dark;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0 0 0;
+}

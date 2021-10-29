@@ -1,0 +1,11 @@
+{
+  "site": {
+    "name": "欢迎"
+  },
+  "welcome": {
+    "title": "欢迎来到 {{framework}}"
+  },
+  "footer": {
+    "copyright": "© Boston Software Group Inc."
+  }
+}

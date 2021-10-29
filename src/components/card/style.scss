@@ -1,0 +1,330 @@
+@use "../../theme/base";
+
+// for card ....
+.card {
+  width: 345px;
+  margin: 3px;
+  border: 1px solid silver;
+}
+
+.action {
+  display: "flex";
+  justify-content: "center";
+}
+
+.theme-card {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0px solid green;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: "stretch";
+}
+
+.theme-card-background {
+  position: absolute;
+  border: 0px solid blue;
+  top: 0px;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -50;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: stretch;
+  background-color: base.$primary-dark;
+}
+.theme-card-background-buffer {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: 800px;
+  background-color: base.$primary-dark;
+}
+
+.theme-card-content {
+  padding: 30px 0 30px 0;
+  position: relative;
+  border: 0px solid red;
+  width: 100%;
+  opacity: 1;
+  margin: 0;
+  z-index: 1;
+  border: 10px soild red;
+}
+
+.theme-card-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 16px;
+  color: base.$primary-light;
+}
+
+.video-theme-card {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0px solid green;
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: "stretch";
+  background-color: black;
+}
+
+.video-background {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.video-theme-card-content {
+  padding: 30px 0 30px 0;
+  position: relative;
+  border: 0px solid red;
+  width: 100%;
+  opacity: 1;
+  margin: 0;
+  z-index: 1;
+}
+.video-theme-card-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 16px;
+  color: base.$primary-light;
+}
+
+.icon-card {
+  width: 100%;
+  border: 1px solid base.$secondary-light;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 8px 4px 8px;
+  align-items: center;
+  height: 100%;
+  background-color: base.$primary-light;
+}
+
+.testimonial-card {
+  border-radius: 35px;
+  width: auto;
+  border: 1px solid silver;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 8px 4px 8px;
+  align-items: center;
+  height: 100%;
+  background-color: base.$primary-light;
+}
+
+.count-card {
+  border: 0px solid base.$secondary-light;
+  width: 345px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.youtube-card {
+  border: 0px solid base.$secondary-light;
+  width: 500px;
+  width: 100%;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.scroll-card {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  z-index: -100;
+  overflow: hidden;
+}
+.scroll-card-content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border: 0px solid red;
+  overflow: hidden;
+}
+.avatar {
+  width: 50px !important;
+  height: 50px !important;
+  background: white !important;
+}
+
+.vip-card {
+  width: 100%;
+  border: 1px solid base.$secondary-light;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 8px 20px 8px;
+  align-items: center;
+  background-color: base.$primary-light;
+}
+
+.vip-card img {
+  border-radius: 50%;
+  width: 120px;
+}
+
+.job-card {
+  width: 100%;
+  border: 0px solid base.$secondary-light;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px 60px 20px;
+  align-items: flex-start;
+  background-color: base.$primary-light;
+  margin-bottom: 80px;
+}
+
+.event-card {
+  width: 100%;
+  border: 0px solid base.$secondary-light;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: flex-start;
+  background-color: base.$primary-light;
+  margin-bottom: 80px;
+}
+.event-card-header {
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.event-card-content {
+  width: 100%;
+  border: 0px solid base.$secondary-light;
+  padding: 4px 4px 50px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-wrap: normal;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 100%;
+  border: 0px solid base.$primary-light;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0px 60px 0px;
+  align-items: flex-start;
+  background-color: base.$primary-light;
+  margin-bottom: 80px;
+}
+
+.google-slide-card {
+  border: 0px solid base.$secondary-light;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.google-slide-responsive {
+  overflow: hidden;
+  padding-bottom: 59.5%;
+  position: relative;
+  height: 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 0;
+  z-index: 0;
+}
+
+.google-slide-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: 0;
+  margin: 0px;
+  padding: 0px;
+}
+.google-slide-control {
+  position: relative;
+  left: 6px;
+  bottom: 120px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.google-slide-responsive-bestview {
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 2000;
+}
+
+.google-slide-responsive-bestview iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border: 0;
+  overflow: hidden;
+}
+
+.google-slide-control-bestview {
+  position: fixed !important;
+  bottom: 84px;
+  left: 6px;
+  z-index: 3000;
+}
+
+.image-card {
+  border: 1px solid base.$secondary-dark;
+  width: 500px;
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.image-card-control {
+  position: relative;
+  width: 100%;
+  bottom: 100px;
+  text-align: center;
+}
+.image-responsive {
+  overflow: hidden;
+  position: relative;
+  padding: 30px 10px 30px 10px;
+}
+
+.image-responsive img {
+  width: 100%;
+}

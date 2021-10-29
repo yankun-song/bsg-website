@@ -1,0 +1,13 @@
+@use "../../theme/base";
+
+.form {
+  width: 90%; // so the form multiline input shows appropriately
+  padding: 40px 20px 40px 20px;
+  background-color: white;
+  color: base.$primary-dark;
+  display: flex;
+  flex-direction: column;
+
+  text-align: left;
+  margin: 0px 0 0 0;
+}

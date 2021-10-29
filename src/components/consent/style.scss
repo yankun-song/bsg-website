@@ -1,0 +1,14 @@
+@use "../../theme/base";
+
+.cookie-consent {
+  position: fixed;
+  z-index: 100;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 12px 10px 12px 10px;
+  background-color: base.$primary-light;
+  color: base.$primary-dark;
+  border: 0px solid red;
+  margin: 0;
+}

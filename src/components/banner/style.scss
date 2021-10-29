@@ -1,0 +1,8 @@
+@use "../../theme/base";
+
+.banner {
+  padding-top: 50px;
+  padding-bottom: 34px;
+  background-color: base.$primary-dark;
+  color: base.$primary-light;
+}

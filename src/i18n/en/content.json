@@ -1,0 +1,11 @@
+{
+  "site": {
+    "name": "BSG"
+  },
+  "welcome": {
+    "title": "Welcome to {{site}}"
+  },
+  "footer": {
+    "copyright": "© Boston Software Group Inc."
+  }
+}

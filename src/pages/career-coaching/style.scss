@@ -1,0 +1,15 @@
+@use "../../theme/base";
+
+.faq {
+  border: 0px solid rgba(0, 0, 0, 0.125);
+  box-shadow: "none";
+  padding: 40px 10px 40px 10px;
+}
+
+#signup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 200;
+}
